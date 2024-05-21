@@ -4,6 +4,8 @@ $tertiary-color:#99E2D0;
 
 $title-font: 'Shrikhand' , sans-serif;
 
+
+
 * {
     font-family: 'Roboto', sans-serif;
 }
@@ -21,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   
 
     i {
        display: none;
@@ -42,7 +44,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     background-color: #EAEAEA;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
 
 }
 
@@ -82,6 +84,52 @@ body {
         border-radius: 25px;
         margin-left: 80px;
         margin-right: 80px;
+        
     }
 }
 
+.function {
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .boutton {
+        display: flex;
+        align-items: center;
+        
+
+        
+    
+
+        p {
+            background-color: $main-color;
+            color:white;
+            border-radius: 50%; 
+            padding: 2px 8px; 
+            z-index: 2;
+            
+        }
+
+        button {
+            background-color: #F6F6F6;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            height: 70px;
+            border-radius: 20px;
+            width: 100%;
+            margin-left: -12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+        }
+
+
+    }
+
+}
