@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
 }
 
+/****** Header ***********/
 .logo {
   display: flex;
   justify-content: center;
@@ -36,6 +37,7 @@ body {
   background-color: #EAEAEA;
 }
 
+/****** Main ***********/
 .presentation {
   display: flex;
   flex-direction: column;
@@ -121,6 +123,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   height: 250px;
+  margin-bottom: 20px;
 }
 .restaurant .card img {
   width: 100%;
@@ -132,6 +135,20 @@ body {
   justify-content: space-between;
   align-items: center;
   color: black;
+}
+
+/****** Footer ***********/
+.footer {
+  background-color: #353535;
+  color: white;
+}
+.footer h1 {
+  font-family: "Shrikhand", sans-serif;
+  font-size: 18px;
+}
+.footer li {
+  list-style-type: none;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=stylesmain.css.map */
