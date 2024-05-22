@@ -110,6 +110,7 @@ body {
 
 .restaurant {
   background-color: #F6F6F6;
+  padding-bottom: 25px;
 }
 .restaurant h1 {
   padding-top: 20px;
@@ -141,14 +142,21 @@ body {
 .footer {
   background-color: #353535;
   color: white;
+  padding-top: 10px;
 }
 .footer h1 {
   font-family: "Shrikhand", sans-serif;
   font-size: 18px;
+  margin-left: 30px;
 }
-.footer li {
+.footer ul {
   list-style-type: none;
   font-weight: 500;
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+.footer li {
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=stylesmain.css.map */

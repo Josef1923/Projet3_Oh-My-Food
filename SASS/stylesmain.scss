@@ -143,6 +143,7 @@ body {
 
 .restaurant {
     background-color: #F6F6F6;
+    padding-bottom: 25px;
 
     
     h1 {
@@ -188,15 +189,26 @@ body {
 .footer {
     background-color: #353535;
     color: white;
+    padding-top: 10px;
+    
+   
 
     h1 {
         font-family: $title-font;
         font-size: 18px;
+        margin-left: 30px;
+        
+    }
+
+    ul {
+        list-style-type: none;
+        font-weight: 500;
+        padding-left: 30px;   
+        margin-bottom: 0;     
     }
 
     li {
-        list-style-type: none;
-        font-weight: 500;
+        padding-bottom: 10px;
     }
-     
+   
 }
