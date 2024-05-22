@@ -44,7 +44,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     background-color: #EAEAEA;
-    
 
 }
 
@@ -126,10 +125,57 @@ body {
             margin-left: -12px;
             margin-top: 10px;
             margin-bottom: 10px;
+
+            .fa-store {
+                color: $main-color;
+            }
+            
             
         }
 
-
+        
     }
 
 }
+
+.restaurant {
+    background-color: #F6F6F6;
+
+    
+    h1 {
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 250px;
+        
+    
+
+        img {
+            width: 100%;
+            border-radius: 15px 15px 0px 0px;
+            height: 150px;
+        }
+
+        .card-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: black;
+        
+           
+           
+        }
+
+
+        
+    }
+}
+
