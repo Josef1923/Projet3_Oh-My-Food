@@ -25,12 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-   
-
-    i {
-       display: none;
-       }
-    
+      
     img {
         width: 50%;
         padding-top: 25px;
@@ -45,7 +40,8 @@ body {
     gap: 17px;
     font-size: 16px;
     font-weight: 500;
-    background-color: #EAEAEA;
+    background-color: #EAEAEA;   
+
 
 }
 
@@ -104,10 +100,6 @@ body {
         display: flex;
         align-items: center;
         
-
-        
-    
-
         p {
             background-color: $main-color;
             color:white;
@@ -195,14 +187,13 @@ body {
 
     h1 {
         font-family: $title-font;
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 30px;
         
     }
 
     ul {
         list-style-type: none;
-        font-weight: 500;
         padding-left: 30px;   
         margin-bottom: 0;     
     }
