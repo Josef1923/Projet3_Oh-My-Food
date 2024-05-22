@@ -102,36 +102,6 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.function .boutton button .fa-store {
-  color: #9356DC;
-}
 
-.restaurant {
-  background-color: #F6F6F6;
-}
-.restaurant h1 {
-  padding-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 24px;
-}
-.restaurant .card {
-  background-color: white;
-  border-radius: 15px;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 250px;
-}
-.restaurant .card img {
-  width: 100%;
-  border-radius: 15px 15px 0px 0px;
-  height: 150px;
-}
-.restaurant .card .card-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: black;
-}
 
 /*# sourceMappingURL=stylesmain.css.map */
