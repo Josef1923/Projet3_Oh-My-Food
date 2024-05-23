@@ -161,7 +161,7 @@ body {
         img {
             width: 100%;
             border-radius: 15px 15px 0px 0px;
-            height: 150px;    
+            height: 170px;    
         }
 
         .badge {
@@ -180,6 +180,31 @@ body {
             justify-content: space-between;
             align-items: center;
             color: black;   
+
+
+            .card-txt {
+                padding-left: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                
+                 
+                h2 {
+                    margin-bottom: 0px;
+                    font-size: 18px;
+                }
+
+                p {
+                    margin-top: 0px;
+                    font-size: 17px;
+                    font-weight: 300;
+                }
+            }
+        
+        .card-like i {
+            font-size: 20px;
+            padding-right: 20px;
+        }
         }
 
 
