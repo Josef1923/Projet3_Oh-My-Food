@@ -1,5 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -122,11 +123,22 @@ body {
   margin-right: 20px;
   height: 250px;
   margin-bottom: 20px;
+  position: relative;
 }
 .restaurant .card img {
   width: 100%;
   border-radius: 15px 15px 0px 0px;
   height: 150px;
+}
+.restaurant .card .badge {
+  border: solid;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-color: #99E2D0;
+  background-color: #99E2D0;
+  color: #008766;
+  border-radius: 2px;
 }
 .restaurant .card .card-content {
   display: flex;
