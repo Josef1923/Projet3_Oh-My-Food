@@ -30,7 +30,7 @@ body {
     align-items: center;
     box-shadow: 0px 5px 4px #00000026;
     position: relative;
-    z-index: 2;
+    z-index: 1;
       
     img {
         width: 50%;
@@ -88,7 +88,7 @@ body {
         border-radius: 25px;
         margin-left: 80px;
         margin-right: 80px;
-        
+        box-shadow: 0px 5px 4px #00000026;       
     }
 }
 
@@ -106,13 +106,13 @@ body {
         display: flex;
         align-items: center;
         
+        
         p {
             background-color: $main-color;
             color:white;
             border-radius: 50%; 
             padding: 2px 8px; 
-            z-index: 2;
-            
+            z-index: 2;         
         }
 
         button {
@@ -123,13 +123,15 @@ body {
             height: 70px;
             border-radius: 20px;
             width: 100%;
-            margin-left: -25px;
+            margin-left: -13px;
             margin-top: 10px;
             margin-bottom: 10px;
+            padding-right: 35px;
+            box-shadow: 0px 5px 4px #00000026;
             
 
             i {
-                margin-right: 20px;
+                margin-right: 25px;               
             }
 
             .fa-store {
