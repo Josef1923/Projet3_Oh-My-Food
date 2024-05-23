@@ -79,7 +79,7 @@ body {
     }
 
     button {
-        background-color: $main-color;
+        background: linear-gradient($secondary-color, $main-color);
         border: none;
         color:white;
         font-size: 16px;
@@ -127,7 +127,7 @@ body {
             margin-top: 10px;
             margin-bottom: 10px;
             padding-right: 35px;
-            box-shadow: 0px 5px 4px #00000026;
+            box-shadow: 0px 4px 4px #00000026;
             
 
             i {
