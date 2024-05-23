@@ -102,6 +102,9 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.function .boutton button .i {
+  gap: 30px;
+}
 .function .boutton button .fa-store {
   color: #9356DC;
 }
