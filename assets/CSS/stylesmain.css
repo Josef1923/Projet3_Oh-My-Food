@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -197,6 +198,17 @@ body {
   padding-bottom: 10px;
 }
 
+/****** Header ***********/
+.logo a {
+  font-size: 30px;
+  position: absolute;
+  left: 30px;
+  color: black;
+}
+.logo a i {
+  font-size: 30px;
+}
+
 img {
   width: 100%;
 }
@@ -207,6 +219,13 @@ img {
   border-top-right-radius: 20px;
   padding-top: 40px;
   margin-top: -20px;
+}
+.menu .entrées {
+  padding: 20px;
+}
+.menu .menu-content {
+  background-color: white;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=stylesmain.css.map */

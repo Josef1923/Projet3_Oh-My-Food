@@ -1,7 +1,20 @@
-img {
-    width: 100%;
-   
+/****** Header ***********/
+
+
+.logo a {
+    font-size: 30px;
+    position: absolute;
+    left: 30px;  
+    color: black;
     
+    i {
+        font-size: 30px;
+    }
+   }
+
+
+img {
+    width: 100%;    
 }
 
 .menu {
@@ -9,9 +22,14 @@ img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding-top: 40px;
-    margin-top: -20px;
-    
-  
-    
+    margin-top: -20px;   
 
+    .entrées {
+        padding: 20px;
+    }
+
+    .menu-content {
+        background-color: white;
+        border-radius: 20px;
+    }
 }
