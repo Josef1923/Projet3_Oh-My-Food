@@ -197,4 +197,16 @@ body {
   padding-bottom: 10px;
 }
 
+img {
+  width: 100%;
+}
+
+.menu {
+  background-color: #EAEAEA;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 40px;
+  margin-top: -20px;
+}
+
 /*# sourceMappingURL=stylesmain.css.map */
