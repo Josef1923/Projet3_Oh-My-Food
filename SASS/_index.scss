@@ -1,0 +1,241 @@
+
+* {
+    font-family: $main-font;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+.main-container {
+        width: 100%;
+        max-width: 566px;
+        box-sizing: border-box;
+    }   
+
+/****** Header ***********/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 4px #00000026;
+    position: relative;
+    z-index: 1;
+      
+    img {
+        width: 50%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    }
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #EAEAEA; 
+    box-shadow: 0px 5px 4px #00000026;  
+    position: relative;
+    }
+
+/****** Main ***********/
+
+.presentation {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #F6F6F6;
+    padding-bottom: 40px;
+
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-left: 45px;
+        padding-right: 45px;
+        margin-bottom: 0;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    button {
+        background: linear-gradient($secondary-color, $main-color);
+        border: none;
+        color:white;
+        font-size: 16px;
+        font-weight: 500;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 80px;
+        margin-right: 80px;
+        box-shadow: 0px 5px 4px #00000026;       
+    }
+}
+
+.function {
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .boutton {
+        display: flex;
+        align-items: center;
+        
+        
+        p {
+            background-color: $main-color;
+            color:white;
+            border-radius: 50%; 
+            padding: 2px 8px; 
+            z-index: 2;         
+        }
+
+        button {
+            background-color: #F6F6F6;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            height: 70px;
+            border-radius: 20px;
+            width: 100%;
+            margin-left: -13px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-right: 35px;
+            box-shadow: 0px 4px 4px #00000026;
+            
+
+            i {
+                margin-right: 25px;               
+            }
+
+            .fa-store {
+                color: $main-color;
+            }
+            
+            
+        }
+
+        
+    }
+
+}
+
+.restaurant {
+    background-color: #F6F6F6;
+    padding-bottom: 25px;
+
+    
+    h1 {
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 250px;
+        margin-bottom: 20px;
+        position: relative;  
+      
+        
+    
+
+        img {
+            width: 100%;
+            border-radius: 15px 15px 0px 0px;
+            height: 170px;    
+        }
+
+        .badge {
+            border: solid;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border-color: $tertiary-color;
+            background-color: $tertiary-color;
+            color: #008766;
+            border-radius: 2px;
+        }
+
+        .card-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: black;   
+
+
+            .card-txt {
+                padding-left: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                
+                 
+                h2 {
+                    margin-bottom: 0px;
+                    font-size: 18px;
+                }
+
+                p {
+                    margin-top: 0px;
+                    font-size: 17px;
+                    font-weight: 300;
+                }
+            }
+        
+        .card-like i {
+            font-size: 20px;
+            padding-right: 20px;           
+        }        
+    }
+}
+}
+/****** Footer ***********/
+
+.footer {
+    background-color: #353535;
+    color: white;
+    padding-top: 10px;
+    
+   
+
+    h1 {
+        font-family: $title-font;
+        font-size: 20px;
+        margin-left: 30px;
+        
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 30px;   
+        margin-bottom: 0;     
+    }
+
+    li {
+        padding-bottom: 10px;
+    }
+   
+}
