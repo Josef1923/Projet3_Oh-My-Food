@@ -17,7 +17,7 @@ img {
     width: 100%;    
 }
 
-.menu {
+.choice {
     background-color: #EAEAEA;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -43,12 +43,30 @@ img {
         }
     }   
 
-    .entrées {
+    .entrees {
         padding: 20px;
+
+       h2 {
+        font-weight: 300;
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+       }
+
+        h2:after {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 3px;
+            background-color: $tertiary-color;
+            margin-top: 5px;           
+        }
+       
     }
 
     .menu-content {
         background-color: white;
         border-radius: 20px;
+        color: black;
     }
 }
