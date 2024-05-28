@@ -220,6 +220,22 @@ img {
   padding-top: 40px;
   margin-top: -20px;
 }
+.menu .card {
+  display: flex;
+  justify-content: space-between;
+}
+.menu .card h1 {
+  font-family: "Shrikhand", sans-serif;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 28px;
+}
+.menu .card i {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
 .menu .entrées {
   padding: 20px;
 }
