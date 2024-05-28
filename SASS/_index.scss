@@ -80,7 +80,13 @@ body {
         border-radius: 25px;
         margin-left: 80px;
         margin-right: 80px;
-        box-shadow: 0px 5px 4px #00000026;       
+        box-shadow: 0px 5px 4px #00000026;  
+
+        &:hover {
+            opacity: 0.75;
+            transition-duration: 400ms;
+            box-shadow: 0px 5px 1px #00000026; 
+        }
     }
 }
 
