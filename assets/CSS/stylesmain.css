@@ -187,6 +187,7 @@ body {
   font-family: "Shrikhand", sans-serif;
   font-size: 20px;
   margin-left: 30px;
+  font-weight: 400;
 }
 .footer ul {
   list-style-type: none;
@@ -214,10 +215,11 @@ img {
 
 .choice {
   background-color: #EAEAEA;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-top: 40px;
-  margin-top: -20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-top: -40px;
+  position: relative;
+  padding-top: 10px;
 }
 .choice .card {
   display: flex;
@@ -225,7 +227,7 @@ img {
 }
 .choice .card h1 {
   font-family: "Shrikhand", sans-serif;
-  margin-left: 20px;
+  margin-left: 15px;
   font-weight: 400;
   font-size: 28px;
 }
@@ -236,13 +238,15 @@ img {
   margin-right: 30px;
 }
 .choice .entrees {
-  padding: 20px;
+  padding: 15px;
 }
 .choice .entrees h2 {
   font-weight: 300;
   font-size: 16px;
   position: relative;
   display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .choice .entrees h2:after {
   content: "";
@@ -256,6 +260,23 @@ img {
   background-color: white;
   border-radius: 20px;
   color: black;
+  height: 70px;
+  padding-left: 10px;
+}
+.choice .menu-content h3 {
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.choice .menu-content p {
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.choice .menu-content p .euro {
+  float: right;
+  padding-right: 15px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=stylesmain.css.map */
