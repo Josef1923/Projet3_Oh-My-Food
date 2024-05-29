@@ -36,11 +36,41 @@ img {
         font-size: 28px;
         }
 
-        i {
-        font-size: 25px;   
-        display: flex;
-        align-items: center;
-        margin-right: 30px;
+      
+
+        .hidden-checkbox {
+            display: none;
+            padding-right: 30px;
+        }
+
+        .heart {
+            cursor: pointer;
+            
+
+            .fa-regular.fa-heart {
+                display: block;
+                font-size: 25px;
+                padding-right: 50px;
+                margin-top: 25px;
+            }
+
+            .fa-solid.fa-heart {
+                padding-right: 30px;
+                font-size: 25px;
+                display: none;
+                color: $main-color;
+                padding-right: 50px;
+                margin-top: 25px;
+            }
+        
+        }
+
+        :checked + .heart .fa-regular.fa-heart {
+            display: none;
+        }
+
+        :checked + .heart .fa-solid.fa-heart {
+            display: block;
         }
     }   
 
