@@ -211,10 +211,38 @@ body {
                 }
             }
         
-        .card-like i {
-            font-size: 20px;
-            padding-right: 20px;           
-        }        
+        .card-like {
+
+            .hidden-checkbox {
+                display: none;
+                padding-right: 30px;
+            }
+
+            .heart {
+                cursor: pointer;
+
+                .fa-regular.fa-heart {
+                    display: block;
+                    font-size: 20px;
+                    padding-right: 30px;
+                }
+
+                .fa-solid.fa-heart {
+                    padding-right: 30px;
+                    font-size: 20px;
+                    display: none;
+                    color: $secondary-color;
+                }
+            }
+
+            :checked + .heart .fa-regular.fa-heart {
+                display: none;
+            }
+
+            :checked + .heart .fa-solid.fa-heart {
+                display: block;
+            }
+        }             
     }
 }
 }

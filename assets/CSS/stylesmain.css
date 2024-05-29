@@ -177,9 +177,29 @@ body {
   font-size: 17px;
   font-weight: 300;
 }
-.restaurant .card .card-content .card-like i {
+.restaurant .card .card-content .card-like .hidden-checkbox {
+  display: none;
+  padding-right: 30px;
+}
+.restaurant .card .card-content .card-like .heart {
+  cursor: pointer;
+}
+.restaurant .card .card-content .card-like .heart .fa-regular.fa-heart {
+  display: block;
   font-size: 20px;
-  padding-right: 20px;
+  padding-right: 30px;
+}
+.restaurant .card .card-content .card-like .heart .fa-solid.fa-heart {
+  padding-right: 30px;
+  font-size: 20px;
+  display: none;
+  color: #FF79DA;
+}
+.restaurant .card .card-content .card-like :checked + .heart .fa-regular.fa-heart {
+  display: none;
+}
+.restaurant .card .card-content .card-like :checked + .heart .fa-solid.fa-heart {
+  display: block;
 }
 
 /****** Footer ***********/
