@@ -193,7 +193,7 @@ body {
   padding-right: 30px;
   font-size: 20px;
   display: none;
-  color: #FF79DA;
+  color: #9356DC;
 }
 .restaurant .card .card-content .card-like :checked + .heart .fa-regular.fa-heart {
   display: none;
