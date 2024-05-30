@@ -1,18 +1,322 @@
-/* Error: Expected expression.
- *     ,
- * 220 |                 margin-top: ;
- *     |                             ^
- *     '
- *   SASS\_index.scss 220:29   @import
- *   SASS\stylesmain.scss 3:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a     \2577 \a 220 \2502                  margin-top: ;\d\a     \2502                              ^\a     \2575 \a   SASS\\_index.scss 220:29   @import\a   SASS\\stylesmain.scss 3:9  root stylesheet";
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 566px;
+  box-sizing: border-box;
+}
+
+/****** Header ***********/
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1490196078);
+  position: relative;
+  z-index: 1;
+}
+.logo img {
+  width: 50%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #EAEAEA;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1490196078);
+  position: relative;
+}
+
+/****** Main ***********/
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #F6F6F6;
+  padding-bottom: 40px;
+}
+.presentation h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-bottom: 0;
+}
+.presentation p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 18px;
+}
+.presentation button {
+  background: linear-gradient(#FF79DA, #9356DC);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1490196078);
+}
+.presentation button:hover {
+  opacity: 0.75;
+  transition-duration: 400ms;
+  box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.1490196078);
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.function h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.function .boutton {
+  display: flex;
+  align-items: center;
+}
+.function .boutton p {
+  background-color: #9356DC;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  z-index: 2;
+}
+.function .boutton button {
+  background-color: #F6F6F6;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  height: 70px;
+  border-radius: 20px;
+  width: 100%;
+  margin-left: -13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 35px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1490196078);
+}
+.function .boutton button i {
+  margin-right: 25px;
+}
+.function .boutton button .fa-store {
+  color: #9356DC;
+}
+
+.restaurant {
+  background-color: #F6F6F6;
+  padding-bottom: 25px;
+}
+.restaurant h1 {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+}
+.restaurant .card {
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 250px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.restaurant .card img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  height: 170px;
+}
+.restaurant .card .badge {
+  border: solid;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-color: #99E2D0;
+  background-color: #99E2D0;
+  color: #008766;
+  border-radius: 2px;
+}
+.restaurant .card .card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.restaurant .card .card-content .card-txt {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.restaurant .card .card-content .card-txt h2 {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.restaurant .card .card-content .card-txt p {
+  margin-top: 0px;
+  font-size: 17px;
+  font-weight: 300;
+}
+.restaurant .card .card-content .card-like .hidden-checkbox {
+  display: none;
+  padding-right: 30px;
+}
+.restaurant .card .card-content .card-like .heart {
+  cursor: pointer;
+  font-size: 20px;
+  padding-right: 50px;
+}
+.restaurant .card .card-content .card-like .heart .fa-regular.fa-heart {
+  display: block;
+}
+.restaurant .card .card-content .card-like .heart .fa-solid.fa-heart {
+  display: none;
+  color: #9356DC;
+}
+.restaurant .card .card-content .card-like :checked + .heart .fa-regular.fa-heart {
+  display: none;
+}
+.restaurant .card .card-content .card-like :checked + .heart .fa-solid.fa-heart {
+  display: block;
+}
+
+/****** Footer ***********/
+.footer {
+  background-color: #353535;
+  color: white;
+  padding-top: 10px;
+}
+.footer h1 {
+  font-family: "Shrikhand", sans-serif;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 400;
+}
+.footer ul {
+  list-style-type: none;
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+.footer li {
+  padding-bottom: 10px;
+}
+
+/****** Header ***********/
+.logo a {
+  font-size: 30px;
+  position: absolute;
+  left: 30px;
+  color: black;
+}
+.logo a i {
+  font-size: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.choice {
+  background-color: #EAEAEA;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-top: -40px;
+  position: relative;
+  padding-top: 10px;
+}
+.choice .card {
+  display: flex;
+  justify-content: space-between;
+}
+.choice .card h1 {
+  font-family: "Shrikhand", sans-serif;
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 28px;
+}
+.choice .card .hidden-checkbox {
+  display: none;
+  padding-right: 30px;
+}
+.choice .card .heart {
+  cursor: pointer;
+  font-size: 25px;
+  padding-right: 50px;
+  margin-top: 25px;
+}
+.choice .card .heart .fa-regular.fa-heart {
+  display: block;
+}
+.choice .card .heart .fa-solid.fa-heart {
+  display: none;
+  color: #9356DC;
+}
+.choice .card :checked + .heart .fa-regular.fa-heart {
+  display: none;
+}
+.choice .card :checked + .heart .fa-solid.fa-heart {
+  display: block;
+}
+.choice .entrees {
+  padding: 15px;
+}
+.choice .entrees h2 {
+  font-weight: 300;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.choice .entrees h2:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  margin-top: 5px;
+}
+.choice .menu-content {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  height: 70px;
+  padding-left: 10px;
+}
+.choice .menu-content h3 {
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.choice .menu-content p {
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.choice .menu-content p .euro {
+  float: right;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=stylesmain.css.map */
