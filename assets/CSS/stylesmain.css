@@ -262,20 +262,16 @@ img {
 }
 .choice .card .heart {
   cursor: pointer;
+  font-size: 25px;
+  padding-right: 50px;
+  margin-top: 25px;
 }
 .choice .card .heart .fa-regular.fa-heart {
   display: block;
-  font-size: 25px;
-  padding-right: 50px;
-  margin-top: 25px;
 }
 .choice .card .heart .fa-solid.fa-heart {
-  padding-right: 30px;
-  font-size: 25px;
   display: none;
   color: #9356DC;
-  padding-right: 50px;
-  margin-top: 25px;
 }
 .choice .card :checked + .heart .fa-regular.fa-heart {
   display: none;

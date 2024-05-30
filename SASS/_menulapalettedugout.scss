@@ -35,8 +35,7 @@ img {
         font-weight: 400;
         font-size: 28px;
         }
-
-      
+    
 
         .hidden-checkbox {
             display: none;
@@ -45,22 +44,18 @@ img {
 
         .heart {
             cursor: pointer;
+            font-size: 25px;
+            padding-right: 50px;
+            margin-top: 25px;
             
 
             .fa-regular.fa-heart {
-                display: block;
-                font-size: 25px;
-                padding-right: 50px;
-                margin-top: 25px;
+                display: block;                
             }
 
-            .fa-solid.fa-heart {
-                padding-right: 30px;
-                font-size: 25px;
+            .fa-solid.fa-heart {             
                 display: none;
-                color: $main-color;
-                padding-right: 50px;
-                margin-top: 25px;
+                color: $main-color;                
             }
         
         }
@@ -103,6 +98,7 @@ img {
         color: black;
         height: 70px;
         padding-left: 10px;
+
        
 
         h3 {
