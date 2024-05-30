@@ -283,18 +283,8 @@ img {
 .choice .entrees h2 {
   font-weight: 300;
   font-size: 16px;
-  position: relative;
-  display: inline-block;
   margin-bottom: 0;
   margin-top: 0;
-}
-.choice .entrees h2:after {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 3px;
-  background-color: #99E2D0;
-  margin-top: 5px;
 }
 .choice .menu-content {
   background-color: white;
