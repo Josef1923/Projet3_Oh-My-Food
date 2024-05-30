@@ -71,8 +71,9 @@ img {
 
     .entrees {
         padding: 15px;
+       
 
-       h2 {
+        h2 {
         font-weight: 300;
         font-size: 16px;        
         margin-bottom: 0;
@@ -91,14 +92,36 @@ img {
         margin-top: 4px;
     }    
 }
-
+    input[type="checkbox"] {
+        display: none;
+    }
+    input[type="checkbox"]:checked + label .menu-content::after {
+        width: 20%;
+    }
     .menu-content {
         background-color: white;
         border-radius: 20px;
         color: black;
         height: 70px;
-        padding-left: 10px;
+        padding-left: 15px;
+        position: relative;
+        
+       
+        
+        
 
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 100%;
+            background-color: $tertiary-color;
+            transition: width 0.3s ease-in-out;
+            z-index: 2;
+           
+        }
        
 
         h3 {
