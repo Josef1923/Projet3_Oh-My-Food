@@ -134,14 +134,9 @@ body {
 
             .fa-store {
                 color: $main-color;
-            }
-            
-            
-        }
-
-        
+            }            
+        }        
     }
-
 }
 
 .restaurant {
@@ -220,16 +215,15 @@ body {
 
             .heart {
                 cursor: pointer;
+                font-size: 20px;
+                padding-right: 50px;
+                margin-top: ;
 
                 .fa-regular.fa-heart {
-                    display: block;
-                    font-size: 20px;
-                    padding-right: 30px;
+                    display: block;                    
                 }
 
-                .fa-solid.fa-heart {
-                    padding-right: 30px;
-                    font-size: 20px;
+                .fa-solid.fa-heart {                    
                     display: none;
                     color: $main-color;
                 }
