@@ -303,7 +303,7 @@ img {
   background-color: white;
   border-radius: 20px;
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .container .menu {
   display: flex;
@@ -328,7 +328,7 @@ img {
 }
 .container .menu .menu-content p .euro {
   float: right;
-  padding-right: 40px;
+  padding-right: 30px;
   font-weight: 700;
 }
 .container .menu .checked {
