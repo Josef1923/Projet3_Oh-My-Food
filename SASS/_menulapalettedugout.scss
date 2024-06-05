@@ -70,7 +70,7 @@ img {
     }   
 
 }
-    .entrees {
+    .repas {
         padding: 15px;
        
 
@@ -108,8 +108,7 @@ img {
         display: flex;
         
 
-        .menu-content {           
-            
+        .menu-content {              
             color: black;
             height: 70px;
             padding-left: 15px;
@@ -121,8 +120,7 @@ img {
             h3 {
                 margin-top: 10px;
                 font-weight: 500;
-                font-size: 18px;              
-                
+                font-size: 18px;                 
             }
 
             p {
@@ -166,8 +164,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + label .menu .menu-content {
-    width: calc(100% - 100px);  
-   
+    width: calc(100% - 100px);     
 }
 
 input[type="checkbox"]:checked + label .menu .checked i {

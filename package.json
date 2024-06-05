@@ -4,7 +4,7 @@
   "description": "https://josef1923.github.io/Projet3_Oh-My-Food/",
   "main": "index.js",
   "scripts": {
-    "dev": "sass --watch SASS/stylesmain.scss assets/CSS/stylesmain.css"
+    "dev": "sass --watch sass/stylesmain.scss assets/css/stylesmain.css"
   },
   "keywords": [],
   "author": "",

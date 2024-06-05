@@ -278,17 +278,17 @@ img {
   display: block;
 }
 
-.entrees {
+.repas {
   padding: 15px;
 }
-.entrees h2 {
+.repas h2 {
   font-weight: 300;
   font-size: 16px;
   margin-bottom: 0;
   margin-top: 0;
   position: relative;
 }
-.entrees h2::after {
+.repas h2::after {
   content: "";
   display: block;
   width: 40px;
