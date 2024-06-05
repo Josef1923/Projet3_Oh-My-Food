@@ -69,6 +69,7 @@ img {
         }
     }   
 
+}
     .entrees {
         padding: 15px;
        
@@ -92,55 +93,83 @@ img {
         margin-top: 4px;
     }    
 }
-    input[type="checkbox"] {
-        display: none;
-    }
-    input[type="checkbox"]:checked + label .menu-content::after {
-        width: 20%;
-    }
-    .menu-content {
-        background-color: white;
-        border-radius: 20px;
-        color: black;
-        height: 70px;
-        padding-left: 15px;
-        position: relative;
-        
-       
-        
+
+
+ 
+
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+
+    .menu { 
+        display: flex;
         
 
-        &::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 0;
-            height: 100%;
-            background-color: $tertiary-color;
-            transition: width 0.3s ease-in-out;
-            z-index: 2;
-           
-        }
-       
-
-        h3 {
-            font-weight: 500;
-            font-size: 18px;
-            padding-top: 10px;
+        .menu-content {           
             
+            color: black;
+            height: 70px;
+            padding-left: 15px;
+            flex-shrink: 0;
+            width: 100%;
+            transition: width 0.3s ease-in;           
+        
+        
+            h3 {
+                margin-top: 10px;
+                font-weight: 500;
+                font-size: 18px;              
+                
+            }
+
+            p {
+                font-weight: 300;
+                font-size: 15px;
+                margin-top: -5px;            
+
+                .euro {
+                    float: right;
+                    padding-right: 40px;
+                    font-weight: 700;
+                }          
+            }              
         }
 
-        p {
-            font-weight: 300;
-            font-size: 15px;
-            margin-top: -10px;            
+        .checked {
+            background-color: $tertiary-color;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            transition: width 0.3s ease-in;
 
-            .euro {
-                float: right;
-                padding-right: 15px;
-                font-weight: 700;
-            }          
-        }              
+            
+            i {
+                display: flex;
+                justify-content: center;     
+                color: white;
+                transform: rotate(-180deg);
+                transition: transform 0.3s ease-in;
+                font-size: 25px;
+            }
+        }
     }
+}
+
+input[type="checkbox"] {
+    display: none;      
+}
+
+input[type="checkbox"]:checked + label .menu .menu-content {
+    width: calc(100% - 100px);  
+   
+}
+
+input[type="checkbox"]:checked + label .menu .checked i {
+    transform: rotate(0);
 }

@@ -277,17 +277,18 @@ img {
 .choice .card :checked + .heart .fa-solid.fa-heart {
   display: block;
 }
-.choice .entrees {
+
+.entrees {
   padding: 15px;
 }
-.choice .entrees h2 {
+.entrees h2 {
   font-weight: 300;
   font-size: 16px;
   margin-bottom: 0;
   margin-top: 0;
   position: relative;
 }
-.choice .entrees h2::after {
+.entrees h2::after {
   content: "";
   display: block;
   width: 40px;
@@ -297,45 +298,68 @@ img {
   left: 0;
   margin-top: 4px;
 }
-.choice input[type=checkbox] {
-  display: none;
-}
-.choice input[type=checkbox]:checked + label .menu-content::after {
-  width: 20%;
-}
-.choice .menu-content {
+
+.container {
   background-color: white;
   border-radius: 20px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.container .menu {
+  display: flex;
+}
+.container .menu .menu-content {
   color: black;
   height: 70px;
   padding-left: 15px;
-  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  transition: width 0.3s ease-in;
 }
-.choice .menu-content::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 100%;
-  background-color: #99E2D0;
-  transition: width 0.3s ease-in-out;
-  z-index: 2;
-}
-.choice .menu-content h3 {
+.container .menu .menu-content h3 {
+  margin-top: 10px;
   font-weight: 500;
   font-size: 18px;
-  padding-top: 10px;
 }
-.choice .menu-content p {
+.container .menu .menu-content p {
   font-weight: 300;
   font-size: 15px;
-  margin-top: -10px;
+  margin-top: -5px;
 }
-.choice .menu-content p .euro {
+.container .menu .menu-content p .euro {
   float: right;
-  padding-right: 15px;
+  padding-right: 40px;
   font-weight: 700;
+}
+.container .menu .checked {
+  background-color: #99E2D0;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: width 0.3s ease-in;
+}
+.container .menu .checked i {
+  display: flex;
+  justify-content: center;
+  color: white;
+  transform: rotate(-180deg);
+  transition: transform 0.3s ease-in;
+  font-size: 25px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]:checked + label .menu .menu-content {
+  width: calc(100% - 100px);
+}
+
+input[type=checkbox]:checked + label .menu .checked i {
+  transform: rotate(0);
 }
 
 /*# sourceMappingURL=stylesmain.css.map */
