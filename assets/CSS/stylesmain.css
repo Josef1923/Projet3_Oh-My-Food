@@ -362,4 +362,23 @@ input[type=checkbox]:checked + label .menu .checked i {
   transform: rotate(0);
 }
 
+.commande {
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+.commande button {
+  width: 250px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1490196078);
+}
+
 /*# sourceMappingURL=stylesmain.css.map */

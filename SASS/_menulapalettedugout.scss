@@ -170,3 +170,24 @@ input[type="checkbox"]:checked + label .menu .menu-content {
 input[type="checkbox"]:checked + label .menu .checked i {
     transform: rotate(0);
 }
+
+
+.commande {
+    justify-content: space-around;
+    text-align: center;    
+    padding: 20px;
+
+    button {
+        width: 250px;
+        background: linear-gradient($secondary-color, $main-color);
+        border: none;
+        color:white;
+        font-size: 16px;
+        font-weight: 500;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 80px;
+        margin-right: 80px;
+        box-shadow: 0px 5px 4px #00000026;  
+    }
+}
