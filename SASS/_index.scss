@@ -215,24 +215,26 @@ body {
 
             .heart {
                 cursor: pointer;
-                font-size: 20px;
+                font-size: 10px;
                 padding-right: 50px;
 
-                .fa-regular.fa-heart {
-                    display: block;                    
+                .heartlight {
+                    display: block; 
+                    width: 25px;                   
                 }
 
-                .fa-solid.fa-heart {                    
+                .heartsolid {                    
                     display: none;
                     color: $main-color;
+                    width: 25px;
                 }
             }
 
-            :checked + .heart .fa-regular.fa-heart {
+            :checked + .heart .heartlight {
                 display: none;
             }
 
-            :checked + .heart .fa-solid.fa-heart {
+            :checked + .heart .heartsolid {
                 display: block;
             }
         }             
@@ -268,3 +270,6 @@ body {
     }
    
 }
+
+///// LOADER //////
+

@@ -183,20 +183,22 @@ body {
 }
 .restaurant .card .card-content .card-like .heart {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 10px;
   padding-right: 50px;
 }
-.restaurant .card .card-content .card-like .heart .fa-regular.fa-heart {
+.restaurant .card .card-content .card-like .heart .heartlight {
   display: block;
+  width: 25px;
 }
-.restaurant .card .card-content .card-like .heart .fa-solid.fa-heart {
+.restaurant .card .card-content .card-like .heart .heartsolid {
   display: none;
   color: #9356DC;
+  width: 25px;
 }
-.restaurant .card .card-content .card-like :checked + .heart .fa-regular.fa-heart {
+.restaurant .card .card-content .card-like :checked + .heart .heartlight {
   display: none;
 }
-.restaurant .card .card-content .card-like :checked + .heart .fa-solid.fa-heart {
+.restaurant .card .card-content .card-like :checked + .heart .heartsolid {
   display: block;
 }
 
