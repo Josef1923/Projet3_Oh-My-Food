@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+<svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.3647 1.43666C18.01 -0.752399 14.5081 -0.358649 12.3468 2.07416L11.5003 3.02573L10.6538 2.07416C8.49677 -0.358649 4.99052 -0.752399 2.63583 1.43666C-0.0626076 3.94916 -0.204405 8.45854 2.21044 11.182L10.5249 20.5476C11.062 21.1523 11.9343 21.1523 12.4714 20.5476L20.7858 11.182C23.205 8.45854 23.0632 3.94916 20.3647 1.43666Z" fill="url(#paint0_linear_25368_713)"/>
+<defs>
+<linearGradient id="paint0_linear_25368_713" x1="11.5" y1="-5.45937" x2="3.93419" y2="27.993" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9356DC"/>
+<stop offset="1" stop-color="#FF79DA"/>
+</linearGradient>
+</defs>
+</svg>
+
+
+
+

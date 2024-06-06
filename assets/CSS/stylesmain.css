@@ -169,7 +169,7 @@ body {
   gap: 4px;
 }
 .restaurant .card .card-content .card-txt h2 {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   font-size: 18px;
 }
 .restaurant .card .card-content .card-txt p {
@@ -189,11 +189,13 @@ body {
 .restaurant .card .card-content .card-like .heart .heartlight {
   display: block;
   width: 25px;
+  height: 30px;
 }
 .restaurant .card .card-content .card-like .heart .heartsolid {
   display: none;
   color: #9356DC;
   width: 25px;
+  height: 30px;
 }
 .restaurant .card .card-content .card-like :checked + .heart .heartlight {
   display: none;
@@ -262,21 +264,20 @@ img {
 }
 .choice .card .heart {
   cursor: pointer;
-  font-size: 25px;
-  padding-right: 50px;
-  margin-top: 25px;
+  width: 20px;
+  padding-right: 40px;
+  margin-top: 30px;
 }
-.choice .card .heart .fa-regular.fa-heart {
+.choice .card .heart .heartlight {
   display: block;
 }
-.choice .card .heart .fa-solid.fa-heart {
-  display: none;
-  color: #9356DC;
-}
-.choice .card :checked + .heart .fa-regular.fa-heart {
+.choice .card .heart .heartsolid {
   display: none;
 }
-.choice .card :checked + .heart .fa-solid.fa-heart {
+.choice .card :checked + .heart .heartlight {
+  display: none;
+}
+.choice .card :checked + .heart .heartsolid {
   display: block;
 }
 
