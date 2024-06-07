@@ -279,11 +279,17 @@ body {
     ul {
         list-style-type: none;
         padding-left: 30px;   
-        margin-bottom: 0;     
+        margin-bottom: 0;  
+        
     }
 
     li {
         padding-bottom: 10px;
+
+        a {
+            color: white;
+        }
+        
     }
    
 }

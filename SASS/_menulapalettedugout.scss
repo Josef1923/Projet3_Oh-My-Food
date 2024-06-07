@@ -123,25 +123,42 @@ img {
             padding-left: 15px;
             flex-shrink: 0;
             width: 100%;
-            transition: width 0.3s ease-in;           
+            transition: width 0.3s ease-in;   
+          
         
         
             h3 {
                 margin-top: 10px;
                 font-weight: 500;
-                font-size: 18px;                 
+                font-size: 18px;     
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;              
             }
 
-            p {
+            .card-subtitle {
                 font-weight: 300;
                 font-size: 15px;
-                margin-top: -5px;    
-                    
-
-                .euro {
-                    float: right;
+                margin-top: -5px; 
+                display: flex;   
+                justify-content: space-between;   
+                
+                
+                .text {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;                  
+               
+                    }
+                
+                
+                   .euro {
                     padding-right: 30px;
-                    font-weight: 700;                   
+                    font-weight: 700;   
+                  
+            
+                    
+                                  
 
                 }          
             }              

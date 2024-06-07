@@ -231,6 +231,9 @@ body {
 .footer li {
   padding-bottom: 10px;
 }
+.footer li a {
+  color: white;
+}
 
 /****** Header ***********/
 .logo a {
@@ -339,14 +342,23 @@ img {
   margin-top: 10px;
   font-weight: 500;
   font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.container .menu .menu-content p {
+.container .menu .menu-content .card-subtitle {
   font-weight: 300;
   font-size: 15px;
   margin-top: -5px;
+  display: flex;
+  justify-content: space-between;
 }
-.container .menu .menu-content p .euro {
-  float: right;
+.container .menu .menu-content .card-subtitle .text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container .menu .menu-content .card-subtitle .euro {
   padding-right: 30px;
   font-weight: 700;
 }
