@@ -185,23 +185,29 @@ body {
   cursor: pointer;
   font-size: 10px;
   padding-right: 50px;
+  position: relative;
 }
 .restaurant .card .card-content .card-like .heart .heartlight {
-  display: block;
+  opacity: 1;
   width: 25px;
   height: 30px;
+  transition: opacity 3s;
+  position: absolute;
+  bottom: 5px;
 }
 .restaurant .card .card-content .card-like .heart .heartsolid {
-  display: none;
-  color: #9356DC;
+  opacity: 0;
   width: 25px;
   height: 30px;
+  transition: opacity 3s;
+  position: absolute;
+  bottom: 5px;
 }
 .restaurant .card .card-content .card-like :checked + .heart .heartlight {
-  display: none;
+  opacity: 0;
 }
 .restaurant .card .card-content .card-like :checked + .heart .heartsolid {
-  display: block;
+  opacity: 1;
 }
 
 /****** Footer ***********/
