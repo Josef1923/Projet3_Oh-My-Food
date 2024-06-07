@@ -44,9 +44,9 @@ img {
 
         .heart {
             cursor: pointer;
-            width: 20px;
+            width: 25px;
             padding-right: 40px;
-            margin-top: 30px;
+            margin-top: 25px;
             position: relative;
             
 
@@ -54,14 +54,17 @@ img {
                 opacity: 1;
                 transition: opacity 3s;    
                 position: absolute;    
-                width: 25px;     
+                width: 25px; 
+                height: 25px;
+                   
             }
 
             .heartsolid {             
                 opacity: 0;
                 transition: opacity 3s;  
                 position: absolute;   
-                width: 25px;         
+                width: 25px; 
+                height: 25px;        
             }
         
         }
@@ -138,8 +141,7 @@ img {
                 .euro {
                     float: right;
                     padding-right: 30px;
-                    font-weight: 700;
-                    
+                    font-weight: 700;                   
 
                 }          
             }              
