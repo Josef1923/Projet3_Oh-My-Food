@@ -215,27 +215,34 @@ body {
             }
 
             .heart {
-                cursor: pointer;
-                font-size: 10px;
+                cursor: pointer;                
                 padding-right: 50px;
                 position: relative;
-
+                bottom: 5px;  
+                
+                
+                
                 .heartlight {
                     opacity: 1;
-                    width: 25px;  
-                    height: 30px;
                     transition: opacity 3s;
                     position: absolute;
-                    bottom: 5px;                   
+                    bottom: 5px;  
+                    width: 25px;  
+                    height: 30px; 
+                                   
+                    
+                                     
                 }
 
                 .heartsolid {                    
                     opacity: 0;
-                    width: 25px;
-                    height: 30px;
                     transition: opacity 3s;
-                    position: absolute;   
-                    bottom: 5px;                 
+                    position: absolute;  
+                    bottom: 5px;  
+                    width: 25px;  
+                    height: 30px; 
+                                   
+                    
                 }
             }
 
@@ -245,7 +252,7 @@ body {
             }
 
             :checked + .heart .heartsolid {
-                opacity: 1;                
+                opacity: 1;                  
             }
         }             
     }

@@ -47,24 +47,31 @@ img {
             width: 20px;
             padding-right: 40px;
             margin-top: 30px;
+            position: relative;
             
 
             .heartlight {
-                display: block;                
+                opacity: 1;
+                transition: opacity 3s;    
+                position: absolute;    
+                width: 25px;     
             }
 
             .heartsolid {             
-                display: none;               
+                opacity: 0;
+                transition: opacity 3s;  
+                position: absolute;   
+                width: 25px;         
             }
         
         }
 
         :checked + .heart .heartlight {
-            display: none;
+            opacity: 0;  
         }
 
         :checked + .heart .heartsolid {
-            display: block;
+            opacity: 1;     
         }
     }   
 
