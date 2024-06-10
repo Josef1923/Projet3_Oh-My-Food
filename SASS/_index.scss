@@ -10,7 +10,7 @@ body {
 
 .main-container {
         width: 100%;
-        max-width: 566px;
+        
         box-sizing: border-box;
     }   
 
@@ -160,14 +160,6 @@ body {
         margin-bottom: 20px;
         position: relative;  
       
-        
-    
-
-        img {
-            width: 100%;
-            border-radius: 15px 15px 0px 0px;
-            height: 170px;    
-        }
 
         .badge {
             border: solid;
@@ -312,7 +304,7 @@ body {
 
 .main-container {
     opacity: 0; 
-    animation: appearance 0.2s forwards; 
+    animation: appearance forwards; 
     animation-delay: 3s;  
 }
 
@@ -326,7 +318,11 @@ body {
     top: 20%;   
     left: 10%;       
 
-    
+    .img {
+        width: 50%;
+        padding-top: 25px;
+        padding-bottom: 25px; 
+    }
 
     .fill_bar {
         margin-top: 10px;
