@@ -296,3 +296,42 @@ body {
 
 ///// LOADER //////
 
+@keyframes appearance {
+    to { opacity: 1; }
+    
+}
+
+@keyframes fadeout {
+    80% { opacity: 1; }
+    100% { opacity: 0; visibility: hidden; }
+}
+
+@keyframes fill {
+    to { width: 100%; }
+}
+
+.main-container {
+    opacity: 0; 
+    animation: appearance 0.5s forwards; 
+    animation-delay: 3s;  
+}
+
+.loader {
+    animation: fadeout 2.8s forwards;
+    width: 80%;
+    height: 30px;                        
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;   
+    left: 10%;        
+    border: 2px solid black;
+
+    .fill_bar {
+        margin-top: 1px;
+        width: 0;
+        height: 28px;
+        background: linear-gradient($secondary-color, $main-color);         
+        animation: fill 3s;   
+        border-radius: 8px;   
+    }
+}
