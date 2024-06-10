@@ -312,9 +312,10 @@ body {
 
 .main-container {
     opacity: 0; 
-    animation: appearance 0.5s forwards; 
+    animation: appearance 0.2s forwards; 
     animation-delay: 3s;  
 }
+
 
 .loader {
     animation: fadeout 2.8s forwards;
@@ -322,16 +323,17 @@ body {
     height: 30px;                        
     border-radius: 10px;
     position: fixed;
-    top: 50%;   
-    left: 10%;        
-    border: 2px solid black;
+    top: 20%;   
+    left: 10%;       
+
+    
 
     .fill_bar {
-        margin-top: 1px;
+        margin-top: 10px;
         width: 0;
-        height: 28px;
+        height: 10px;
         background: linear-gradient($secondary-color, $main-color);         
         animation: fill 3s;   
-        border-radius: 8px;   
-    }
+        border-radius: 10px;   
+        }
 }
