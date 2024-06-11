@@ -343,7 +343,7 @@ body {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, more/equal than 768px) */
-@media (min-width: 768px) {
+@media (min-width: 770px) {
 
     .logo {
         box-shadow: none;
@@ -391,5 +391,30 @@ body {
             }
                 
         }
+    }
+
+    .restaurant_choice {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        a {
+            width: calc(50% - 25px);
+        }
+    }
+
+
+    .footer {
+        display: flex;       
+        flex-direction: row-reverse;
+        align-items: center;
+        padding-right: 20px;
+        padding-top: 100px;
+
+        ul {
+            display: flex;
+            gap: 15px;
+            padding-bottom: 6px;        
+        }    
     }
 }

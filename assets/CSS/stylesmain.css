@@ -284,7 +284,7 @@ body {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, more/equal than 768px) */
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .logo {
     box-shadow: none;
   }
@@ -316,6 +316,26 @@ body {
   }
   .function .boutton .fa-solid {
     margin-right: 4px;
+  }
+  .restaurant_choice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .restaurant_choice a {
+    width: calc(50% - 25px);
+  }
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 100px;
+  }
+  .footer ul {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 6px;
   }
 }
 /****** Header ***********/
