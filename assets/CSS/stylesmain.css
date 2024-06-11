@@ -256,11 +256,11 @@ body {
 .main-container {
   opacity: 0;
   animation: appearance forwards;
-  animation-delay: 3s;
+  animation-delay: 0.1s;
 }
 
 .loader {
-  animation: fadeout 2.8s forwards;
+  animation: fadeout 0.1s forwards;
   width: 80%;
   height: 30px;
   border-radius: 10px;
@@ -296,21 +296,26 @@ body {
   .location {
     box-shadow: none;
   }
-  .presentation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    background-color: #F6F6F6;
-    padding-bottom: 40px;
-  }
   .presentation h1 {
     font-size: 40px;
     font-weight: 700;
   }
   .presentation button {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  .function .box_boutton {
+    display: flex;
+    justify-content: space-around;
+  }
+  .function .boutton {
+    width: calc(30% - 10px);
+  }
+  .function .boutton button {
+    padding-right: 0;
+  }
+  .function .boutton .fa-solid {
+    margin-right: 4px;
   }
 }
 /****** Header ***********/
