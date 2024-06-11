@@ -89,6 +89,7 @@ img {
         margin-bottom: 0;
         margin-top: 0;
         position: relative;
+        animation: slideinleft 1s ease-out forwards;
        } 
 
        h2::after {
@@ -103,18 +104,18 @@ img {
     }    
 }
 
-
- 
-
-
 .container {
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
     margin-top: 15px;
+    animation: slideinright 01s ease-out forwards;
+
+   
 
     .menu { 
         display: flex;
+        
         
 
         .menu-content {              
@@ -224,4 +225,17 @@ input[type="checkbox"]:checked + label .menu .checked i {
             box-shadow: 0px 5px 1px #00000026; 
         }
     }
+}
+
+
+////animations slidein/////
+
+@keyframes slideinleft {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+@keyframes slideinright {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(0);}
 }

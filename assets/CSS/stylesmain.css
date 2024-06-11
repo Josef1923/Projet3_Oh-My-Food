@@ -356,6 +356,7 @@ img {
   margin-bottom: 0;
   margin-top: 0;
   position: relative;
+  animation: slideinleft 1s ease-out forwards;
 }
 .repas h2::after {
   content: "";
@@ -373,6 +374,7 @@ img {
   border-radius: 20px;
   overflow: hidden;
   margin-top: 15px;
+  animation: slideinright 1s ease-out forwards;
 }
 .container .menu {
   display: flex;
@@ -462,6 +464,23 @@ input[type=checkbox]:checked + label .menu .checked i {
   opacity: 0.75;
   transition-duration: 400ms;
   box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.1490196078);
+}
+
+@keyframes slideinleft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideinright {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /*# sourceMappingURL=stylesmain.css.map */
