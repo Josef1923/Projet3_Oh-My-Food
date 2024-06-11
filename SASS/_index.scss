@@ -339,3 +339,41 @@ body {
         border-radius: 10px;   
         }
 }
+
+/****** Media queries ***********/
+/* Medium devices (tablets, more/equal than 768px) */
+@media (min-width: 768px) {
+
+    .logo {
+        box-shadow: none;
+                 
+        img {
+            width: 25%;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
+
+    .location {
+        box-shadow: none;  
+       }
+
+    .presentation {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        background-color: #F6F6F6;
+        padding-bottom: 40px;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+            }
+        
+            button {
+            margin-left: 200px;
+            margin-right: 200px;
+            }
+    }
+}
