@@ -9,8 +9,7 @@ body {
 }
 
 .main-container {
-        width: 100%;
-        
+        width: 100%;        
         box-sizing: border-box;
     }   
 
@@ -312,24 +311,27 @@ body {
 .main-container {
     opacity: 0; 
     animation: appearance forwards; 
-    animation-delay: 0.1s;  
+    animation-delay: 3s;  
 }
 
 
 .loader {
-    animation: fadeout 0.1s forwards;
+    animation: fadeout 2.8s forwards;
     width: 80%;
-    height: 30px;                        
+    height: 80%;                        
     border-radius: 10px;
     position: fixed;
     top: 20%;   
-    left: 10%;   
+    left: 10%;     
     
 
-    .img {
-        width: 50%;
+    .img_loader {
+        width: 100%;
         padding-top: 25px;
-        padding-bottom: 25px; 
+        padding-bottom: 25px;
+        display: flex;
+        justify-content: center;        
+        
     }
 
     .fill_bar {
@@ -436,6 +438,10 @@ body {
 /****** Media queries ***********/
 /* Medium devices (desktop, more/equal than 1024px) */
 @media (min-width: 1024px) {
+
+    .logo img {
+        width: 16%;
+    }
     
     .presentation button {
         width: 220px;
@@ -460,5 +466,7 @@ body {
         margin-right: 80px;
     }
     
-            
+    .footer {
+        padding-right: 60px;
+    }        
 }

@@ -252,3 +252,30 @@ input[type="checkbox"]:checked + label .menu .checked i {
         margin-right: 50px;
     }
 }
+
+/****** Media queries ***********/
+/* Medium devices (tablets, more/equal than 1024px) */
+
+@media (min-width: 1024px) {
+
+    .choice {
+        margin-left: 200px;
+        margin-right: 200px;
+
+        .card {
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .heart {
+                margin: 0;
+                padding-bottom: 20px;
+            }          
+        }
+
+        .repas {
+            margin-left: 180px;
+            margin-right: 180px;
+        }
+    }
+}

@@ -257,22 +257,24 @@ body {
 .main-container {
   opacity: 0;
   animation: appearance forwards;
-  animation-delay: 0.1s;
+  animation-delay: 3s;
 }
 
 .loader {
-  animation: fadeout 0.1s forwards;
+  animation: fadeout 2.8s forwards;
   width: 80%;
-  height: 30px;
+  height: 80%;
   border-radius: 10px;
   position: fixed;
   top: 20%;
   left: 10%;
 }
-.loader .img {
-  width: 50%;
+.loader .img_loader {
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
 }
 .loader .fill_bar {
   margin-top: 10px;
@@ -351,6 +353,9 @@ body {
 /****** Media queries ***********/
 /* Medium devices (desktop, more/equal than 1024px) */
 @media (min-width: 1024px) {
+  .logo img {
+    width: 16%;
+  }
   .presentation button {
     width: 220px;
     margin: auto;
@@ -368,6 +373,9 @@ body {
   .restaurant_choice {
     margin-left: 80px;
     margin-right: 80px;
+  }
+  .footer {
+    padding-right: 60px;
   }
 }
 /****** Header ***********/
@@ -579,6 +587,27 @@ input[type=checkbox]:checked + label .menu .checked i {
   .choice {
     margin-left: 50px;
     margin-right: 50px;
+  }
+}
+/****** Media queries ***********/
+/* Medium devices (tablets, more/equal than 1024px) */
+@media (min-width: 1024px) {
+  .choice {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .choice .card {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .choice .card .heart {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .choice .repas {
+    margin-left: 180px;
+    margin-right: 180px;
   }
 }
 
