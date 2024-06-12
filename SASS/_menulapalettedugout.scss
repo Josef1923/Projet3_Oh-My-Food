@@ -15,7 +15,8 @@
 
 .img_restaurant {
     width: 100%;  
-    height: 380px; 
+    height: 383px;
+    object-fit: cover;
 }
 
 .choice {
@@ -239,4 +240,15 @@ input[type="checkbox"]:checked + label .menu .checked i {
 @keyframes slideinright {
     0% {transform: translateX(100%);}
     100% {transform: translateX(0);}
+}
+
+
+/****** Media queries ***********/
+/* Medium devices (tablets, more/equal than 768px) */
+@media (min-width: 770px) {
+
+    .choice {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
