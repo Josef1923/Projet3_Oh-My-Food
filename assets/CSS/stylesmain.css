@@ -595,6 +595,7 @@ input[type=checkbox]:checked + label .menu .checked i {
   .choice {
     margin-left: 200px;
     margin-right: 200px;
+    overflow: hidden;
   }
   .choice .card {
     justify-content: center;

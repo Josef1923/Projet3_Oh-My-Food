@@ -92,6 +92,7 @@
         margin-top: -5px;       
         position: relative;
         animation: slideinleft 1s ease-out forwards;
+        
        } 
 
        h2::after {
@@ -150,19 +151,12 @@
                 .text {
                 overflow: hidden;
                 text-overflow: ellipsis;
-                white-space: nowrap;                  
-               
-                    }
-                
-                
+                white-space: nowrap;               
+                   }
+
                    .euro {
                     padding-right: 30px;
                     font-weight: 700;   
-                  
-            
-                    
-                                  
-
                 }          
             }              
         }
@@ -261,6 +255,7 @@ input[type="checkbox"]:checked + label .menu .checked i {
     .choice {
         margin-left: 200px;
         margin-right: 200px;
+        overflow: hidden;
 
         .card {
             justify-content: center;
