@@ -206,10 +206,6 @@ body {
   opacity: 1;
 }
 
-input[type=checkbox] {
-  display: none;
-}
-
 /****** Footer ***********/
 .footer {
   background-color: #353535;
