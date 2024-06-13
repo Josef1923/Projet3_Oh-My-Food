@@ -258,11 +258,11 @@ body {
 .main-container {
   opacity: 0;
   animation: appearance forwards;
-  animation-delay: 3s;
+  animation-delay: 1.7s;
 }
 
 .loader {
-  animation: fadeout 2.8s forwards;
+  animation: fadeout 1.7s forwards;
   width: 80%;
   height: 80%;
   border-radius: 10px;
@@ -282,7 +282,7 @@ body {
   width: 0;
   height: 10px;
   background: linear-gradient(#FF79DA, #9356DC);
-  animation: fill 3s;
+  animation: fill 2s;
   border-radius: 10px;
 }
 
