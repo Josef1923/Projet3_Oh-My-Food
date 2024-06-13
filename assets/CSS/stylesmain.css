@@ -177,17 +177,18 @@ body {
   font-size: 17px;
   font-weight: 300;
 }
-.restaurant .card .card-content .card-like .hidden-checkbox {
+.restaurant .card .card-like {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+.restaurant .card .card-like .hidden-checkbox {
   display: none;
-  padding-right: 30px;
 }
-.restaurant .card .card-content .card-like .heart {
+.restaurant .card .card-like .heart {
   cursor: pointer;
-  padding-right: 50px;
-  position: relative;
-  bottom: 5px;
 }
-.restaurant .card .card-content .card-like .heart .heartlight {
+.restaurant .card .card-like .heart .heartlight {
   opacity: 1;
   transition: opacity 3s;
   position: absolute;
@@ -196,7 +197,7 @@ body {
   height: 30px;
   border-radius: 0;
 }
-.restaurant .card .card-content .card-like .heart .heartsolid {
+.restaurant .card .card-like .heart .heartsolid {
   opacity: 0;
   transition: opacity 3s;
   position: absolute;
@@ -204,10 +205,10 @@ body {
   width: 25px;
   height: 30px;
 }
-.restaurant .card .card-content .card-like :checked + .heart .heartlight {
+.restaurant .card .card-like :checked + .heart .heartlight {
   opacity: 0;
 }
-.restaurant .card .card-content .card-like :checked + .heart .heartsolid {
+.restaurant .card .card-like :checked + .heart .heartsolid {
   opacity: 1;
 }
 
@@ -308,7 +309,7 @@ body {
     margin-right: 250px;
   }
   .function h1 {
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .function .box_boutton {
     display: flex;
@@ -324,15 +325,13 @@ body {
     margin-right: 4px;
   }
   .restaurant h1 {
-    margin-left: 45px;
+    margin-left: 35px;
   }
   .restaurant_choice {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .restaurant_choice a {
-    width: calc(50% - 25px);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 18px;
+    margin-left: 18px;
   }
   .footer {
     display: flex;

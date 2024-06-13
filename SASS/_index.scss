@@ -204,43 +204,36 @@ body {
                     font-weight: 300;
                 }
             }
-        
+        }
         .card-like {
+            position: absolute;
+            bottom: 20px;
+            right: 40px;
 
             .hidden-checkbox {
-                display: none;
-                padding-right: 30px;
+                display: none;                
             }
 
             .heart {
-                cursor: pointer;                
-                padding-right: 50px;
-                position: relative;
-                bottom: 5px;  
-                
-                
-                
+                cursor: pointer;             
+                                  
                 .heartlight {
                     opacity: 1;
                     transition: opacity 3s;
-                    position: absolute;
+                    position: absolute; 
                     bottom: 5px;  
                     width: 25px;  
                     height: 30px; 
-                    border-radius: 0;                                  
-                    
-                                     
+                    border-radius: 0;                                                    
                 }
 
                 .heartsolid {                    
                     opacity: 0;
                     transition: opacity 3s;
-                    position: absolute;  
+                    position: absolute; 
                     bottom: 5px;  
                     width: 25px;  
-                    height: 30px; 
-                                   
-                    
+                    height: 30px;     
                 }
             }
 
@@ -256,7 +249,7 @@ body {
     }
 }
 
-}
+
 /****** Footer ***********/
 
 .footer {
@@ -378,7 +371,7 @@ body {
         .function {   
             
             h1 {
-                margin-left: 20px;
+                margin-left: 15px;
             }
                
             .box_boutton {
@@ -401,19 +394,15 @@ body {
     }
 
     .restaurant h1 {
-        margin-left: 45px;
+        margin-left: 35px;
     }
 
     .restaurant_choice {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        a {
-            width: calc(50% - 25px);
-        }
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-right: 18px;
+        margin-left: 18px;
     }
-
 
     .footer {
         display: flex;       
