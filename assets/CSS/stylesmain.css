@@ -308,9 +308,6 @@ body {
     margin-left: 250px;
     margin-right: 250px;
   }
-  .function h1 {
-    margin-left: 15px;
-  }
   .function .box_boutton {
     display: flex;
     justify-content: space-around;
@@ -367,7 +364,7 @@ body {
     width: calc(33% - 40px);
   }
   .restaurant h1 {
-    margin-left: 120px;
+    margin-left: 100px;
   }
   .restaurant_choice {
     margin-left: 80px;
