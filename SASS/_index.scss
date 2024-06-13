@@ -205,14 +205,15 @@ body {
                 }
             }
         }
+
+        input[type="checkbox"] {
+            display: none;      
+        }
+        
         .card-like {
             position: absolute;
             bottom: 50px;
-            right: 40px;
-
-            .hidden-checkbox {
-                display: none;                
-            }
+            right: 40px;            
 
             .heart {
                 cursor: pointer;             

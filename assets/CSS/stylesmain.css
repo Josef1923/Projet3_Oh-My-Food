@@ -177,13 +177,13 @@ body {
   font-size: 17px;
   font-weight: 300;
 }
+.restaurant .card input[type=checkbox] {
+  display: none;
+}
 .restaurant .card .card-like {
   position: absolute;
   bottom: 50px;
   right: 40px;
-}
-.restaurant .card .card-like .hidden-checkbox {
-  display: none;
 }
 .restaurant .card .card-like .heart {
   cursor: pointer;
@@ -407,10 +407,6 @@ body {
   font-weight: 400;
   font-size: 28px;
 }
-.choice .card .hidden-checkbox {
-  display: none;
-  padding-right: 30px;
-}
 .choice .card .heart {
   cursor: pointer;
   width: 25px;
@@ -520,10 +516,6 @@ body {
   transform: rotate(-180deg);
   transition: transform 0.3s ease-in;
   font-size: 25px;
-}
-
-input[type=checkbox] {
-  display: none;
 }
 
 input[type=checkbox]:checked + label .menu .menu-content {
