@@ -515,6 +515,10 @@ body {
   font-size: 25px;
 }
 
+input[type=checkbox] {
+  display: none;
+}
+
 input[type=checkbox]:checked + label .menu .menu-content {
   width: calc(100% - 100px);
 }
