@@ -179,7 +179,7 @@ body {
 }
 .restaurant .card .card-like {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   right: 40px;
 }
 .restaurant .card .card-like .hidden-checkbox {
@@ -192,18 +192,15 @@ body {
   opacity: 1;
   transition: opacity 3s;
   position: absolute;
-  bottom: 5px;
-  width: 25px;
   height: 30px;
-  border-radius: 0;
+  width: 25px;
 }
 .restaurant .card .card-like .heart .heartsolid {
   opacity: 0;
   transition: opacity 3s;
   position: absolute;
-  bottom: 5px;
-  width: 25px;
   height: 30px;
+  width: 25px;
 }
 .restaurant .card .card-like :checked + .heart .heartlight {
   opacity: 0;

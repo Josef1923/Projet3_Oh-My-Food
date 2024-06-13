@@ -207,7 +207,7 @@ body {
         }
         .card-like {
             position: absolute;
-            bottom: 20px;
+            bottom: 50px;
             right: 40px;
 
             .hidden-checkbox {
@@ -220,26 +220,22 @@ body {
                 .heartlight {
                     opacity: 1;
                     transition: opacity 3s;
-                    position: absolute; 
-                    bottom: 5px;  
-                    width: 25px;  
-                    height: 30px; 
-                    border-radius: 0;                                                    
+                    position: absolute;
+                    height: 30px;
+                    width: 25px;                                                                          
                 }
 
                 .heartsolid {                    
                     opacity: 0;
                     transition: opacity 3s;
-                    position: absolute; 
-                    bottom: 5px;  
-                    width: 25px;  
-                    height: 30px;     
+                    position: absolute;
+                    height: 30px;
+                    width: 25px;                                                 
                 }
             }
 
             :checked + .heart .heartlight {
-                opacity: 0;   
-                            
+                opacity: 0;                               
             }
 
             :checked + .heart .heartsolid {
