@@ -205,9 +205,13 @@ body {
                 }
             }
         }
+   
+    input[type="checkbox"] {
+        display: none;
+    }       
 
-       
-        
+
+
         .card-like {
             position: absolute;
             bottom: 50px;
