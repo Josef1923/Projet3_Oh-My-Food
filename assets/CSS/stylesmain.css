@@ -177,9 +177,6 @@ body {
   font-size: 17px;
   font-weight: 300;
 }
-.restaurant .card input[type=checkbox] {
-  display: none;
-}
 .restaurant .card .card-like {
   position: absolute;
   bottom: 50px;
@@ -207,6 +204,10 @@ body {
 }
 .restaurant .card .card-like :checked + .heart .heartsolid {
   opacity: 1;
+}
+
+input[type=checkbox] {
+  display: none;
 }
 
 /****** Footer ***********/

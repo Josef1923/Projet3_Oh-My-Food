@@ -206,11 +206,7 @@ body {
             }
         }
    
-    input[type="checkbox"] {
-        display: none;
-    }       
-
-
+      
 
         .card-like {
             position: absolute;
@@ -247,7 +243,10 @@ body {
         }             
     }
 }
-    
+
+input[type="checkbox"] {
+    display: none;
+}   
 
 
 
