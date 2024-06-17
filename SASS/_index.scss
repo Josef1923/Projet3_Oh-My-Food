@@ -211,22 +211,26 @@ body {
         .card-like {
             position: absolute;
             bottom: 50px;
-            right: 40px;            
+            right: 40px;  
+            
+            .hidden-checkbox {
+                display: none;
+            }
 
             .heart {
                 cursor: pointer;             
                                   
                 .heartlight {
                     opacity: 1;
-                    transition: opacity 3s;
+                    transition: opacity 1s;
                     position: absolute;
                     height: 30px;
-                    width: 25px;                                                                          
+                    width: 25px;                    
                 }
 
                 .heartsolid {                    
                     opacity: 0;
-                    transition: opacity 3s;
+                    transition: opacity 1s;
                     position: absolute;
                     height: 30px;
                     width: 25px;                                                 
@@ -243,11 +247,6 @@ body {
         }             
     }
 }
-
-input[type="checkbox"] {
-    display: none;
-}   
-
 
 
 /****** Footer ***********/

@@ -182,19 +182,22 @@ body {
   bottom: 50px;
   right: 40px;
 }
+.restaurant .card .card-like .hidden-checkbox {
+  display: none;
+}
 .restaurant .card .card-like .heart {
   cursor: pointer;
 }
 .restaurant .card .card-like .heart .heartlight {
   opacity: 1;
-  transition: opacity 3s;
+  transition: opacity 1s;
   position: absolute;
   height: 30px;
   width: 25px;
 }
 .restaurant .card .card-like .heart .heartsolid {
   opacity: 0;
-  transition: opacity 3s;
+  transition: opacity 1s;
   position: absolute;
   height: 30px;
   width: 25px;
@@ -204,10 +207,6 @@ body {
 }
 .restaurant .card .card-like :checked + .heart .heartsolid {
   opacity: 1;
-}
-
-input[type=checkbox] {
-  display: none;
 }
 
 /****** Footer ***********/
@@ -397,6 +396,9 @@ input[type=checkbox] {
   margin-top: -40px;
   position: relative;
   padding-top: 10px;
+}
+.choice .hidden-checkbox {
+  display: none;
 }
 .choice .card {
   display: flex;

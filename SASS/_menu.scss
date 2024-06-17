@@ -27,6 +27,10 @@
     position: relative;
     padding-top: 10px;
 
+    .hidden-checkbox {
+        display: none;
+    }
+
     .card {
         display: flex;
         justify-content: space-between;
