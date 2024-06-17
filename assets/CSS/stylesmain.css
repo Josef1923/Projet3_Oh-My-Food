@@ -3,13 +3,15 @@
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-}
-
 .main-container {
   width: 100%;
-  box-sizing: border-box;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
 }
 
 /****** Header ***********/
@@ -40,6 +42,10 @@ body {
 }
 
 /****** Main ***********/
+main {
+  flex: 1;
+}
+
 .presentation {
   display: flex;
   flex-direction: column;
@@ -213,13 +219,14 @@ body {
 .footer {
   background-color: #353535;
   color: white;
-  padding-top: 10px;
+  margin-top: -20px;
 }
 .footer h1 {
   font-family: "Shrikhand", sans-serif;
   font-size: 20px;
   margin-left: 30px;
   font-weight: 400;
+  padding-top: 10px;
 }
 .footer ul {
   list-style-type: none;

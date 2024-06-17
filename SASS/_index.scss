@@ -4,14 +4,18 @@
     text-decoration: none;
 }
 
+
+
+.main-container {
+        width: 100%;    
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }   
+
 body {
     margin: 0;
 }
-
-.main-container {
-        width: 100%;        
-        box-sizing: border-box;
-    }   
 
 /****** Header ***********/
 
@@ -43,6 +47,11 @@ body {
     }
 
 /****** Main ***********/
+
+
+main {
+    flex:1;
+}
 
 .presentation {
     display:flex;
@@ -253,16 +262,16 @@ body {
 
 .footer {
     background-color: #353535;
-    color: white;
-    padding-top: 10px;
-    
-   
+    color: white; 
+    margin-top: -20px; 
+
 
     h1 {
         font-family: $title-font;
         font-size: 20px;
         margin-left: 30px;
         font-weight: 400;
+        padding-top: 10px;
         
     }
 
