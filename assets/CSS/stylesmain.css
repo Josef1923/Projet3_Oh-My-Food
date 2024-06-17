@@ -419,14 +419,14 @@ body {
 }
 .choice .card .heart .heartlight {
   opacity: 1;
-  transition: opacity 3s;
+  transition: opacity 1s;
   position: absolute;
   width: 25px;
   height: 25px;
 }
 .choice .card .heart .heartsolid {
   opacity: 0;
-  transition: opacity 3s;
+  transition: opacity 1s;
   position: absolute;
   width: 25px;
   height: 25px;
