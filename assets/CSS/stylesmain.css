@@ -264,7 +264,7 @@ body {
   height: 80%;
   border-radius: 10px;
   position: fixed;
-  top: 20%;
+  top: 10%;
   left: 10%;
 }
 .loader .img_loader {
@@ -273,6 +273,11 @@ body {
   padding-bottom: 25px;
   display: flex;
   justify-content: center;
+}
+.loader .img_loader img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 .loader .fill_bar {
   margin-top: 10px;

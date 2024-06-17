@@ -313,7 +313,7 @@ body {
     height: 80%;                        
     border-radius: 10px;
     position: fixed;
-    top: 20%;   
+    top: 10%; 
     left: 10%;     
     
 
@@ -322,8 +322,13 @@ body {
         padding-top: 25px;
         padding-bottom: 25px;
         display: flex;
-        justify-content: center;        
+        justify-content: center;  
         
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
     }
 
     .fill_bar {
