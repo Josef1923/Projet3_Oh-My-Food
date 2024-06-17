@@ -82,8 +82,11 @@
 }
     .repas {
         padding: 15px;
-       
 
+        .hidden-checkbox-animation {
+            display: none;
+        }
+       
         h2 {
         font-weight: 300;
         font-size: 16px;        
