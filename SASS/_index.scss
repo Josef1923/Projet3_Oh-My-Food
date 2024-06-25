@@ -262,23 +262,21 @@ main {
 
 .footer {
     background-color: #353535;
-    color: white;    
+    color: white;  
+    padding-top: 15px;  
 
 
-    h1 {
+    span {
         font-family: $title-font;
         font-size: 20px;
         margin-left: 30px;
-        font-weight: 400;
-        padding-top: 10px;
-        
+        font-weight: 400;        
     }
 
     ul {
         list-style-type: none;
         padding-left: 30px;   
-        margin-bottom: 0;  
-        
+        margin-bottom: 0;          
     }
 
     li {
@@ -430,6 +428,7 @@ main {
             margin-left: 80px;
         }
     }
+
 }
 
 /****** Media queries ***********/

@@ -219,13 +219,13 @@ main {
 .footer {
   background-color: #353535;
   color: white;
+  padding-top: 15px;
 }
-.footer h1 {
+.footer span {
   font-family: "Shrikhand", sans-serif;
   font-size: 20px;
   margin-left: 30px;
   font-weight: 400;
-  padding-top: 10px;
 }
 .footer ul {
   list-style-type: none;
@@ -562,7 +562,7 @@ input[type=checkbox]:checked ~ .container .menu .checked i {
   padding: 20px;
 }
 .commande button {
-  width: 250px;
+  width: 190px;
   background: linear-gradient(#FF79DA, #9356DC);
   border: none;
   color: white;
@@ -570,8 +570,7 @@ input[type=checkbox]:checked ~ .container .menu .checked i {
   font-weight: 500;
   height: 50px;
   border-radius: 25px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin: auto;
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1490196078);
 }
 .commande button:hover {
