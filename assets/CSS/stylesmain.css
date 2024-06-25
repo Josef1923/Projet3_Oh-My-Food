@@ -624,6 +624,9 @@ input[type=checkbox]:checked ~ .container .menu .checked i {
     margin-left: 180px;
     margin-right: 180px;
   }
+  .commande button {
+    width: 250px;
+  }
 }
 
 /*# sourceMappingURL=stylesmain.css.map */
