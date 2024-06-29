@@ -8,6 +8,8 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 body {
@@ -382,6 +384,12 @@ main {
     padding-right: 60px;
   }
 }
+.secondary_container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 /****** Header ***********/
 .logo a {
   font-size: 30px;

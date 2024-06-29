@@ -7,10 +7,12 @@
 
 
 .main-container {
-        width: 100%;    
+        width:100%;    
         display: flex;
         min-height: 100vh;
         flex-direction: column;
+        max-width: 1440px;
+        margin: 0 auto;
     }   
 
 body {
