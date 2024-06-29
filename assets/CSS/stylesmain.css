@@ -434,7 +434,6 @@ main {
   width: 25px;
   padding-right: 40px;
   margin-top: 25px;
-  position: relative;
 }
 .choice .card .heart .heartlight {
   opacity: 1;
