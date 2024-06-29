@@ -93,7 +93,7 @@
         margin-bottom: 25px; 
         margin-top: -5px;       
         position: relative;
-        animation: slideinleft 1s ease-out forwards;
+        
         
        } 
 
@@ -107,6 +107,19 @@
         left: 0;
         margin-top: 4px;
     }    
+
+    .entrees {
+        animation: slideinright 0.5s ease-out forwards;
+    }
+
+    .plats {
+        animation: slideinright 1s ease-out forwards;
+        
+    }
+
+    .dessert {
+        animation: slideinright 1.5s ease-out forwards;
+    }
 }
 
 .food_choice {
@@ -131,7 +144,7 @@
     border-radius: 20px;
     overflow: hidden;
     margin-top: 15px;
-    animation: slideinright 01s ease-out forwards;
+    
    
 
     .menu { 
@@ -281,8 +294,8 @@ input[type="checkbox"]:checked ~ .container .menu .checked i  {
         }
 
         .repas {
-            margin-left: 180px;
-            margin-right: 180px;
+            margin-left: 130px;
+            margin-right: 130px;
         }
     }
 
